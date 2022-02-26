@@ -7,19 +7,14 @@
         <session-timeout>10</session-timeout>
     </session-config>
 
-
     <servlet>
-        <servlet-name>HelloServlet</servlet-name>
-        <servlet-class>com.example.demojee.HelloServlet</servlet-class>
+        <servlet-name>ForwardServlet</servlet-name>
+        <servlet-class>ForwardServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>HelloServlet</servlet-name>
-        <url-pattern>/hello.do</url-pattern>
+        <servlet-name>ForwardServlet</servlet-name>
+        <url-pattern>/forward</url-pattern>
     </servlet-mapping>
 
 </web-app>
-
-
-
-
